@@ -16,4 +16,11 @@ Este repósitorio foi desenvolvido para soluncionar o desafio de criar servidor 
 ```python
   python servidor.py -t
 ```
-![image](https://github.com/user-attachments/assets/fee3c2a1-fc8f-45a0-b4ee-59ec84137958)
+
+![image](https://github.com/user-attachments/assets/bb72ab7d-33e6-4468-864e-cddd4f7d746a)
+
+### Iniciar Servidor no modo multiprocessamento
+```python
+  python servidor.py -p
+```
+![image](https://github.com/user-attachments/assets/4961bab4-c1d3-47d2-a3ad-2df523ebdde4)
