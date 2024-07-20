@@ -16,4 +16,4 @@ Este repósitorio foi desenvolvido para soluncionar o desafio de criar servidor 
 ```python
   python servidor_asc.py -p
 ```
-[multhread](https://github.com/user-attachments/assets/fee3c2a1-fc8f-45a0-b4ee-59ec84137958)
+![image](https://github.com/user-attachments/assets/fee3c2a1-fc8f-45a0-b4ee-59ec84137958)
