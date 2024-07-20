@@ -30,6 +30,12 @@ Este repósitorio foi desenvolvido para soluncionar o desafio de criar servidor 
   python cliente.py 127.0.0.1 2000 "GET / HTTP/1.1`r`nHost: 127.0.0.1`r`n`r`n"
 ```
 
+OU
+
+```python
+  curl http://localhost:2000
+```
+
 ### Teste de conexões simultâneas ao servidor para tarefas vinculadas a CPU
 ```python
   python teste_servidor.py -c -nc 5 127.0.0.1 2000
