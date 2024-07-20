@@ -24,3 +24,24 @@ Este repósitorio foi desenvolvido para soluncionar o desafio de criar servidor 
   python servidor.py -p
 ```
 ![image](https://github.com/user-attachments/assets/4961bab4-c1d3-47d2-a3ad-2df523ebdde4)
+
+### Fazendo solicitação ao servidor
+```python
+  python cliente.py 127.0.0.1 2000 "GET / HTTP/1.1`r`nHost: 127.0.0.1`r`n`r`n"
+```
+
+### Teste de conexões simutanas ao servidor para tarefas vinculadas a CPU
+```python
+  python teste_servidor.py -c -nc 5 127.0.0.1 2000
+```
+
+### Teste de conexões simutanas ao servidor para tarefas vinculadas a I/O
+```python
+  python teste_servidor.py -i -nc 5 127.0.0.1 2000
+```
+
+### Teste de erro de porta incorreta
+```python
+  python cliente.py 127.0.0.1 2001 "GET / HTTP/1.1`r`nHost: 127.0.0.1`r`n`r`n"
+```
+
